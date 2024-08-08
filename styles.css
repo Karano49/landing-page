@@ -58,6 +58,7 @@ body {
   align-items: center;
   gap: 80px;
   padding-top: 50px;
+  flex-wrap: wrap;
   padding-bottom: 50px;
 }
 
@@ -105,6 +106,7 @@ body {
   justify-content: center;
   gap: 150px;
   padding-bottom: 50px;
+  flex-wrap: wrap;
 }
 
 .card {
@@ -129,8 +131,9 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-left: 500px;
-  padding-right: 500px;
+  flex-wrap: wrap;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .quoteText {
@@ -148,19 +151,18 @@ body {
 
 /* callToAction */
 .callToAction {
-  padding: 100px;
+  padding: 5%;
 }
 
 .frame {
   background-color: #3882f6;
   border-radius: 15px;
-  padding-top: 20px;
-  padding-bottom: 20px;
   color: #e5e7eb;
   display: flex;
   justify-content: center;
+  flex-wrap: wrap;
   align-items: center;
-  gap: 200px;
+  gap: 10%;
 }
 
 .frame button {

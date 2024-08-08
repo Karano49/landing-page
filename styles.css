@@ -147,6 +147,30 @@ body {
 }
 
 /* callToAction */
+.callToAction {
+  padding: 100px;
+}
+
+.frame {
+  background-color: #3882f6;
+  border-radius: 15px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 200px;
+}
+
+.frame button {
+  background-color: #3882f6;
+  border-radius: 10%;
+  border-color: #e5e7eb;
+  color: #e5e7eb;
+  padding: 10px;
+  width: 100px;
+}
 
 /* footer */
 .footer {
